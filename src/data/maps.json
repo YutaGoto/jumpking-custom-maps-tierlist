@@ -1,0 +1,682 @@
+[
+  {
+    "id": "Main Babe",
+    "name": "Main Babe",
+    "imageUrl": "/assets/maps/mb.png"
+  },
+  {
+    "id": "New Babe+",
+    "name": "New Babe+",
+    "imageUrl": "/assets/maps/nbp.png"
+  },
+  {
+    "id": "Ghost of the Babe",
+    "name": "Ghost of the Babe",
+    "imageUrl": "/assets/maps/gotb.png"
+  },
+  {
+    "id": ":tf: (placeholder)",
+    "name": ":tf: (placeholder)",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "[Babe]",
+    "name": "[Babe]",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "🎪 Circus",
+    "name": "🎪 Circus",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "100 Screens To The Babe",
+    "name": "100 Screens To The Babe",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "2RBB",
+    "name": "2RBB",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "8ball King",
+    "name": "8ball King",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "A Final Babe",
+    "name": "A Final Babe",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "A new Journey",
+    "name": "A new Journey",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "A Wide Adventure",
+    "name": "A Wide Adventure",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Are You Cold, Babe?",
+    "name": "Are You Cold, Babe?",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "AutoJumpChargeEdition",
+    "name": "AutoJumpChargeEdition",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Baba Is You",
+    "name": "Baba Is You",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Babe of ?",
+    "name": "Babe of ?",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Babe of Accension",
+    "name": "Babe of Accension",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Babe of Accention",
+    "name": "Babe of Accention",
+    "imageUrl": "https://images.steamusercontent.com/ugc/13831880001337137749/8CE8806B901BF19E0F6BC096A435F20888CA98FB/?imw=5000"
+  },
+  {
+    "id": "Babe of Asion",
+    "name": "Babe of Asion",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Babe of Bloodmoon",
+    "name": "Babe of Bloodmoon",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Babe of Bluemoon",
+    "name": "Babe of Bluemoon",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Babe of Delusion",
+    "name": "Babe of Delusion",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Babe of Dimension",
+    "name": "Babe of Dimension",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Babe of Dimension+",
+    "name": "Babe of Dimension+",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Babe of Dol",
+    "name": "Babe of Dol",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Babe of Exile",
+    "name": "Babe of Exile",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Babe of Fate",
+    "name": "Babe of Fate",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Babe of Fate -Fatality-",
+    "name": "Babe of Fate -Fatality-",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Babe of Inferno",
+    "name": "Babe of Inferno",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Babe of Memories",
+    "name": "Babe of Memories",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Babe of Nayuta",
+    "name": "Babe of Nayuta",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Babe of Nayuta.S",
+    "name": "Babe of Nayuta.S",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Babe of Redemption",
+    "name": "Babe of Redemption",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Babe of September",
+    "name": "Babe of September",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Babe of Shadows",
+    "name": "Babe of Shadows",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Babe of Suffering",
+    "name": "Babe of Suffering",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Babe of the Abyss",
+    "name": "Babe of the Abyss",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Babe of the Cum",
+    "name": "Babe of the Cum",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Babe of the Duck",
+    "name": "Babe of the Duck",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Babe of the Heavens",
+    "name": "Babe of the Heavens",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Babe of the Mountain",
+    "name": "Babe of the Mountain",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Babe of the Mountain, Next Locations",
+    "name": "Babe of the Mountain, Next Locations",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Babe of the Realms",
+    "name": "Babe of the Realms",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Babe of the Solar System",
+    "name": "Babe of the Solar System",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "babe of train beta",
+    "name": "babe of train beta",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Babe of Transcension",
+    "name": "Babe of Transcension",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Babe of Utopia",
+    "name": "Babe of Utopia",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Babe Rising",
+    "name": "Babe Rising",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Babe Tower",
+    "name": "Babe Tower",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Babe Tower+",
+    "name": "Babe Tower+",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Babe: The Goddess",
+    "name": "Babe: The Goddess",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Babe: The Princess",
+    "name": "Babe: The Princess",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Back to the Babe!",
+    "name": "Back to the Babe!",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Back to the Babe! (Pocket Edition)",
+    "name": "Back to the Babe! (Pocket Edition)",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Battle for the Babe",
+    "name": "Battle for the Babe",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Boots Babe Ring",
+    "name": "Boots Babe Ring",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Boots Babe Ring 2nd",
+    "name": "Boots Babe Ring 2nd",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Boots Babe Ring 3rd",
+    "name": "Boots Babe Ring 3rd",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Celestial Babe",
+    "name": "Celestial Babe",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Chalange Babe",
+    "name": "Chalange Babe",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Challenge Babe : The Mountain",
+    "name": "Challenge Babe : The Mountain",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "congregration jumpscare",
+    "name": "congregration jumpscare",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Country Babe",
+    "name": "Country Babe",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Cybernetic Utopia",
+    "name": "Cybernetic Utopia",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Demanding Babe",
+    "name": "Demanding Babe",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Digital Babe",
+    "name": "Digital Babe",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Double Jump King",
+    "name": "Double Jump King",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "ExpansionBlocks",
+    "name": "ExpansionBlocks",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Forgotten Babe",
+    "name": "Forgotten Babe",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Ghost Babe of Dimension",
+    "name": "Ghost Babe of Dimension",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Ghost of the Immortal Babe",
+    "name": "Ghost of the Immortal Babe",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Ghost of the Nightmare Babe",
+    "name": "Ghost of the Nightmare Babe",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Glitch Babe",
+    "name": "Glitch Babe",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Glitch Babe+",
+    "name": "Glitch Babe+",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Hamster Cage",
+    "name": "Hamster Cage",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Ice Babe",
+    "name": "Ice Babe",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Immortal Babe",
+    "name": "Immortal Babe",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Immortal Babe+",
+    "name": "Immortal Babe+",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Invisible Mode",
+    "name": "Invisible Mode",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Is This Babe",
+    "name": "Is This Babe",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Is This Babe+",
+    "name": "Is This Babe+",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Is this New Babe?",
+    "name": "Is this New Babe?",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Jing Babe",
+    "name": "Jing Babe",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Joe's Trial of the Babe",
+    "name": "Joe's Trial of the Babe",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Jump King Jing Edition",
+    "name": "Jump King Jing Edition",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Jump King Tech Showcase",
+    "name": "Jump King Tech Showcase",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Jump Step Hop King",
+    "name": "Jump Step Hop King",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Kaizo King",
+    "name": "Kaizo King",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Low Gravity Mode",
+    "name": "Low Gravity Mode",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Maze Babe 1",
+    "name": "Maze Babe 1",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Mighty Mite",
+    "name": "Mighty Mite",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "MinusOne",
+    "name": "MinusOne",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Mixed Gravity Level",
+    "name": "Mixed Gravity Level",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Momentum Mountain",
+    "name": "Momentum Mountain",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Mortal Babe",
+    "name": "Mortal Babe",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Move Up Edition",
+    "name": "Move Up Edition",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Move Up Sample Map",
+    "name": "Move Up Sample Map",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Nexile",
+    "name": "Nexile",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Nightmare Babe",
+    "name": "Nightmare Babe",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Nightmare Babe+",
+    "name": "Nightmare Babe+",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Not Another Jump King Map",
+    "name": "Not Another Jump King Map",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Official Map Wind Edition",
+    "name": "Official Map Wind Edition",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "PAIN!",
+    "name": "PAIN!",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Project Onyx",
+    "name": "Project Onyx",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "PZDR PIRC!!",
+    "name": "PZDR PIRC!!",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Reverse Babe",
+    "name": "Reverse Babe",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Reverse Inferno",
+    "name": "Reverse Inferno",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "ReversedChargeEdition",
+    "name": "ReversedChargeEdition",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Rick King",
+    "name": "Rick King",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "sample flapping map",
+    "name": "sample flapping map",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "SaveStates King",
+    "name": "SaveStates King",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Scarlet Babe",
+    "name": "Scarlet Babe",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Sexy Jumping Map 24/7 NSFW",
+    "name": "Sexy Jumping Map 24/7 NSFW",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Shogi King",
+    "name": "Shogi King",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Sisters of Space",
+    "name": "Sisters of Space",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Ski Jump Challenge",
+    "name": "Ski Jump Challenge",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Speedy King",
+    "name": "Speedy King",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Sucric",
+    "name": "Sucric",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Super Jing World",
+    "name": "Super Jing World",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Super Low Gravity and Quick Move Sample",
+    "name": "Super Low Gravity and Quick Move Sample",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Super Mario Bros. 1-1",
+    "name": "Super Mario Bros. 1-1",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Super Mario Bros. 1-2",
+    "name": "Super Mario Bros. 1-2",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Symmetry Stage Babe",
+    "name": "Symmetry Stage Babe",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Tas Hop",
+    "name": "Tas Hop",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Teleport Babe",
+    "name": "Teleport Babe",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "The Challenge Gauntlet",
+    "name": "The Challenge Gauntlet",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "The Mountain Tower Plus 32",
+    "name": "The Mountain Tower Plus 32",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "The Tower Gauntlet",
+    "name": "The Tower Gauntlet",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "The Tower Trial",
+    "name": "The Tower Trial",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Time Babe",
+    "name": "Time Babe",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Triple Charge Edition",
+    "name": "Triple Charge Edition",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "True Babe of Ludwig",
+    "name": "True Babe of Ludwig",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Tyrant Babe",
+    "name": "Tyrant Babe",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Wady's World",
+    "name": "Wady's World",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Walking Simulator",
+    "name": "Walking Simulator",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Waterfall Babe",
+    "name": "Waterfall Babe",
+    "imageUrl": "/assets/maps/placeholder.png"
+  }
+]
