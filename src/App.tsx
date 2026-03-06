@@ -402,7 +402,7 @@ function TierRow({ tier, setTiers, onDelete, onMove, onColorChange }: {
         </SortableContext>
       </div>
 
-      <div className="absolute right-2 top-1/2 -translate-y-1/2 flex flex-col gap-1 opacity-0 no-export z-10 bg-slate-800/80 p-1 rounded-md backdrop-blur-sm shadow-xl border border-slate-700">
+      <div className="absolute right-2 top-1/2 -translate-y-1/2 flex flex-col gap-1 no-export z-10 bg-slate-800/80 p-1 rounded-md backdrop-blur-sm shadow-xl border border-slate-700">
         <button onClick={() => onMove('up')} className="hover:text-blue-400 p-0.5"><svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 15l7-7 7 7" /></svg></button>
         <button onClick={onColorChange} className="hover:text-yellow-400 p-0.5"><svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" /></svg></button>
         <button onClick={onDelete} className="hover:text-red-400 p-0.5"><svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" /></svg></button>
