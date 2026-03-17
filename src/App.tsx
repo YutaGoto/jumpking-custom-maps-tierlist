@@ -380,7 +380,7 @@ function TierRow({ tier, setTiers, onDelete, onMove, onColorChange }: {
 
   return (
     <div className="flex min-h-[50px] group relative">
-      <div className={`${tier.color} w-20 flex-shrink-0 flex items-center justify-center p-2 border-r border-slate-900/20`}>
+      <div className={`${tier.color} w-28 flex-shrink-0 flex items-center justify-center p-2 border-r border-slate-900/20`}>
         <input
           type="text"
           value={tier.name}
@@ -388,7 +388,7 @@ function TierRow({ tier, setTiers, onDelete, onMove, onColorChange }: {
             const newName = e.target.value;
             setTiers((prev: Tier[]) => prev.map((t: Tier) => t.id === tier.id ? { ...t, name: newName } : t));
           }}
-          className="bg-transparent border-none text-center w-full focus:outline-none font-black text-xl text-slate-950 uppercase"
+          className="bg-transparent border-none text-center w-full focus:outline-none font-black text-base text-slate-950 uppercase leading-tight"
         />
       </div>
       <div
