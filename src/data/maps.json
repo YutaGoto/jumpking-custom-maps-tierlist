@@ -30,18 +30,23 @@
     "imageUrl": "/assets/maps/placeholder.png"
   },
   {
-    "id": "100 Screens To The Babe",
-    "name": "100 Screens To The Babe",
-    "imageUrl": "/assets/maps/placeholder.png"
-  },
-  {
     "id": "2RBB",
     "name": "2RBB",
     "imageUrl": "/assets/maps/placeholder.png"
   },
   {
+    "id": "3rd Ring Babe Boots",
+    "name": "3rd Ring Babe Boots",
+    "imageUrl": "https://images.steamusercontent.com/ugc/14763726272831942647/5323AF1AB08EE295D9FCF4B6B5C3A6FF9E0BDDFB/?imw=5000"
+  },
+  {
     "id": "8ball King",
     "name": "8ball King",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "100 Screens To The Babe",
+    "name": "100 Screens To The Babe",
     "imageUrl": "/assets/maps/placeholder.png"
   },
   {
@@ -295,6 +300,11 @@
     "imageUrl": "/assets/maps/placeholder.png"
   },
   {
+    "id": "Chalange babe -",
+    "name": "Chalange babe -",
+    "imageUrl": "https://images.steamusercontent.com/ugc/15060968910993731080/10F8571D4A72148384A1F72DAC7F0D4C72FC7BDD/?imw=5000"
+  },
+  {
     "id": "Challenge Babe : The Mountain",
     "name": "Challenge Babe : The Mountain",
     "imageUrl": "/assets/maps/placeholder.png"
@@ -320,6 +330,11 @@
     "imageUrl": "/assets/maps/placeholder.png"
   },
   {
+    "id": "Diamond Hands Ice: to the Babe",
+    "name": "Diamond Hands Ice: to the Babe",
+    "imageUrl": "https://images.steamusercontent.com/ugc/18046942501344053621/30C500FF75EA9E808F3D76494D88BDE3B45C3EFE/?imw=5000"
+  },
+  {
     "id": "Digital Babe",
     "name": "Digital Babe",
     "imageUrl": "/assets/maps/placeholder.png"
@@ -328,6 +343,11 @@
     "id": "Double Jump King",
     "name": "Double Jump King",
     "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Finding Babe",
+    "name": "Finding Babe",
+    "imageUrl": "https://images.steamusercontent.com/ugc/15586070994643350264/17B3B97525308ABD2F767A168C51C4296E0E4059/?imw=5000"
   },
   {
     "id": "Forgotten Babe",
@@ -568,6 +588,11 @@
     "id": "Speedy King",
     "name": "Speedy King",
     "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Steamed Hams",
+    "name": "Steamed Hams",
+    "imageUrl": "https://images.steamusercontent.com/ugc/13928513488350538606/CF57996FB7B6E36107FC7FA5BFC32DC2BB209462/?imw=5000"
   },
   {
     "id": "Sucric",
