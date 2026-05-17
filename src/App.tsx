@@ -59,6 +59,7 @@ const DEFAULT_TIER_COLORS = [
   'bg-red-500',
   'bg-red-500',
   'bg-red-500',
+  'bg-red-500',
 ];
 
 // Rich palette for customization
@@ -69,7 +70,7 @@ const COLOR_PALETTE = [
   'bg-rose-500', 'bg-slate-500', 'bg-zinc-500', 'bg-neutral-500'
 ];
 
-const INITIAL_TIERS: Tier[] = Array.from({ length: 15 }, (_, i) => ({
+const INITIAL_TIERS: Tier[] = Array.from({ length: 16 }, (_, i) => ({
   id: `tier-${Date.now()}-${i}`,
   name: `${i + 1}`,
   color: DEFAULT_TIER_COLORS[i % DEFAULT_TIER_COLORS.length],
