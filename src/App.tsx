@@ -200,6 +200,23 @@ export default function App() {
     setActiveItem(null);
   };
 
+  const addCustomMap = (name: string) => {
+    const newMap: MapItem = {
+      id: `custom-map-${Date.now()}`,
+      name,
+      imageUrl: '',
+    };
+    setUnranked(prev => [newMap, ...prev]);
+  };
+
+  const deleteMap = (id: string) => {
+    setUnranked(prev => prev.filter(item => item.id !== id));
+    setTiers(prev => prev.map(t => ({
+      ...t,
+      items: t.items.filter(item => item.id !== id)
+    })));
+  };
+
   const addTier = () => {
     const newTier: Tier = {
       id: `tier-${Date.now()}`,
@@ -337,6 +354,7 @@ export default function App() {
                   onDelete={() => deleteTier(tier.id)}
                   onMove={(dir) => moveTier(tier.id, dir)}
                   onColorChange={() => updateTierColor(tier.id)}
+                  onDeleteMap={deleteMap}
                 />
               ))}
             </div>
@@ -349,7 +367,11 @@ export default function App() {
             )}
           </div>
 
-          <UnrankedArea unranked={unranked} />
+          <UnrankedArea
+            unranked={unranked}
+            onAddMap={addCustomMap}
+            onDeleteMap={deleteMap}
+          />
 
           <DragOverlay dropAnimation={{ sideEffects: defaultDropAnimationSideEffects({ styles: { active: { opacity: '0.5' } } }) }}>
             {activeItem ? <MapThumb item={activeItem} isOverlay /> : null}
@@ -370,12 +392,13 @@ export default function App() {
   );
 }
 
-function TierRow({ tier, setTiers, onDelete, onMove, onColorChange }: {
+function TierRow({ tier, setTiers, onDelete, onMove, onColorChange, onDeleteMap }: {
   tier: Tier,
   setTiers: React.Dispatch<React.SetStateAction<Tier[]>>,
   onDelete: () => void,
   onMove: (dir: 'up' | 'down') => void,
-  onColorChange: () => void
+  onColorChange: () => void,
+  onDeleteMap: (id: string) => void
 }) {
   const { setNodeRef } = useDroppable({ id: tier.id });
 
@@ -398,7 +421,7 @@ function TierRow({ tier, setTiers, onDelete, onMove, onColorChange }: {
       >
         <SortableContext items={tier.items.map(i => i.id)} strategy={horizontalListSortingStrategy}>
           {tier.items.map((item: MapItem) => (
-            <MapThumb key={item.id} item={item} />
+            <MapThumb key={item.id} item={item} onDelete={onDeleteMap} />
           ))}
         </SortableContext>
       </div>
@@ -413,12 +436,47 @@ function TierRow({ tier, setTiers, onDelete, onMove, onColorChange }: {
   );
 }
 
-function UnrankedArea({ unranked }: { unranked: MapItem[] }) {
+function UnrankedArea({ unranked, onAddMap, onDeleteMap }: {
+  unranked: MapItem[],
+  onAddMap: (name: string) => void,
+  onDeleteMap: (id: string) => void
+}) {
   const { setNodeRef } = useDroppable({ id: 'unranked' });
+  const [newMapName, setNewMapName] = useState('');
+
+  const handleAdd = () => {
+    if (newMapName.trim()) {
+      onAddMap(newMapName.trim());
+      setNewMapName('');
+    }
+  };
 
   return (
-    <div className="mt-2 bg-slate-900/50 p-8 rounded-2xl border border-slate-800/50 backdrop-blur-sm">
-      <h2 className="text-slate-500 font-black uppercase text-xs tracking-[0.3em] mb-8">Available Maps</h2>
+    <div className="mt-6 bg-slate-900/50 p-8 rounded-2xl border border-slate-800/50 backdrop-blur-sm">
+      <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-8">
+        <h2 className="text-slate-500 font-black uppercase text-xs tracking-[0.3em] my-auto">Available Maps</h2>
+        <div className="flex items-center gap-2 w-full sm:w-auto">
+          <input
+            type="text"
+            placeholder="Add custom map name..."
+            value={newMapName}
+            onChange={(e) => setNewMapName(e.target.value)}
+            onKeyDown={(e) => {
+              if (e.key === 'Enter') handleAdd();
+            }}
+            className="bg-slate-800/50 border border-slate-700/50 rounded-lg px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all w-full sm:w-64 text-slate-100 placeholder-slate-500"
+          />
+          <button
+            onClick={handleAdd}
+            className="bg-blue-600 hover:bg-blue-500 text-white font-bold px-4 py-2 rounded-lg text-sm transition-all flex items-center gap-1.5 shrink-0 shadow-lg shadow-blue-900/20 active:scale-95 cursor-pointer"
+          >
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M12 4v16m8-8H4" />
+            </svg>
+            Add
+          </button>
+        </div>
+      </div>
       <div
         ref={setNodeRef}
         id="unranked"
@@ -426,7 +484,7 @@ function UnrankedArea({ unranked }: { unranked: MapItem[] }) {
       >
         <SortableContext items={unranked.map(i => i.id)} strategy={horizontalListSortingStrategy}>
           {unranked.map((item: MapItem) => (
-            <MapThumb key={item.id} item={item} />
+            <MapThumb key={item.id} item={item} onDelete={onDeleteMap} />
           ))}
         </SortableContext>
       </div>
@@ -434,7 +492,7 @@ function UnrankedArea({ unranked }: { unranked: MapItem[] }) {
   );
 }
 
-function MapThumb({ item, isOverlay }: { item: MapItem, isOverlay?: boolean }) {
+function MapThumb({ item, isOverlay, onDelete }: { item: MapItem, isOverlay?: boolean, onDelete?: (id: string) => void }) {
   const [imgError, setImgError] = useState(false);
   const {
     attributes,
@@ -452,6 +510,9 @@ function MapThumb({ item, isOverlay }: { item: MapItem, isOverlay?: boolean }) {
     zIndex: isOverlay ? 1000 : 'auto',
   };
 
+  const isCustom = item.id.startsWith('custom-');
+  const hasImage = item.imageUrl && !imgError;
+
   return (
     <div
       ref={setNodeRef}
@@ -460,7 +521,7 @@ function MapThumb({ item, isOverlay }: { item: MapItem, isOverlay?: boolean }) {
       {...listeners}
       className={`relative w-16 h-12 rounded-md overflow-hidden border border-slate-800 hover:border-blue-500 transition-all cursor-grab active:cursor-grabbing group shadow-md ${isOverlay ? 'scale-110 shadow-2xl border-blue-400 rotate-2' : ''}`}
     >
-      {!imgError ? (
+      {hasImage ? (
         <img
           src={item.imageUrl}
           alt={item.name}
@@ -469,8 +530,8 @@ function MapThumb({ item, isOverlay }: { item: MapItem, isOverlay?: boolean }) {
           className="w-full h-full object-cover transition-transform group-hover:scale-110"
         />
       ) : (
-        <div className="w-full h-full bg-slate-900 flex items-center justify-center p-1">
-          <span className="text-[10px] font-black text-slate-500 text-center uppercase leading-none break-all">
+        <div className="w-full h-full bg-gradient-to-br from-slate-800 to-slate-950 flex items-center justify-center p-1.5 border border-slate-800/60">
+          <span className="text-[9px] font-black text-slate-300 text-center uppercase leading-tight tracking-tighter break-all line-clamp-3">
             {item.name}
           </span>
         </div>
@@ -478,6 +539,22 @@ function MapThumb({ item, isOverlay }: { item: MapItem, isOverlay?: boolean }) {
       <div className={`absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent flex items-end p-1 opacity-0 group-hover:opacity-100 transition-opacity ${isOverlay ? 'opacity-100' : ''}`}>
         <span className="text-[8px] font-bold leading-none line-clamp-2 text-white drop-shadow-md">{item.name}</span>
       </div>
+
+      {isCustom && onDelete && (
+        <button
+          onPointerDown={(e) => e.stopPropagation()}
+          onClick={(e) => {
+            e.stopPropagation();
+            onDelete(item.id);
+          }}
+          className="absolute top-0.5 right-0.5 z-20 bg-slate-950/80 hover:bg-red-600/90 text-slate-400 hover:text-white rounded p-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-150 cursor-pointer"
+          title="Delete Map"
+        >
+          <svg className="w-2.5 h-2.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      )}
     </div>
   );
 }
