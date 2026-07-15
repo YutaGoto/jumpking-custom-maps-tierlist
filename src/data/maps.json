@@ -80,6 +80,11 @@
     "imageUrl": "https://images.steamusercontent.com/ugc/10666196527286149277/7C4168DF648AF2E989AC006C6698CEF961873F2E/?imw=5000"
   },
   {
+    "id": "Babe Nemo",
+    "name": "Babe Nemo",
+    "imageUrl": "https://images.steamusercontent.com/ugc/17820173122194871442/2BBDE620BEF01D023F90B3467522525EC7B6EE76/?imw=5000"
+  },
+  {
     "id": "Babe of ?",
     "name": "Babe of ?",
     "imageUrl": "/assets/maps/placeholder.png"
@@ -98,6 +103,11 @@
     "id": "Babe of Bloodmoon",
     "name": "Babe of Bloodmoon",
     "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
+    "id": "Babe of Bloodmoon Remake",
+    "name": "Babe of Bloodmoon Remake",
+    "imageUrl": "https://images.steamusercontent.com/ugc/16944229085364736107/6E6C55C1BF6A71939122856B5F7EA6E129E681F7/?imw=268"
   },
   {
     "id": "Babe of Bluemoon",
