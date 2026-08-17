@@ -1,0 +1,30 @@
+name: ci
+on:
+  pull_request:
+    branches:
+      - main
+    types: [opened, synchronize]
+    paths-ignore:
+      - "*.md"
+      - "*.json"
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - "*.md"
+      - "*.json"
+
+jobs:
+  lint:
+    name: Lint (Oxlint)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: oxc-project/oxlint-action@b78c21302e4bc637e83927135c35a6684de1053e # v3.1.0
+        with:
+          deny: |
+            correctness
+            no-eval
+          warn: |
+            suspicious
+            perf
