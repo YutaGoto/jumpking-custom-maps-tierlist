@@ -30,6 +30,11 @@
     "imageUrl": "https://images.steamusercontent.com/ugc/2469732370718409278/7DC0F0D0DED116E1F2762D8E6DE1308FC9D532A1/?imw=5000"
   },
   {
+    "id": "100 Screens To The Babe",
+    "name": "100 Screens To The Babe",
+    "imageUrl": "/assets/maps/placeholder.png"
+  },
+  {
     "id": "2RBB",
     "name": "2RBB",
     "imageUrl": "https://images.steamusercontent.com/ugc/36698355668642341/035C0E5334A7D0FCB37B5CD19AFA360EF063331A/?imw=637"
@@ -42,11 +47,6 @@
   {
     "id": "8ball King",
     "name": "8ball King",
-    "imageUrl": "/assets/maps/placeholder.png"
-  },
-  {
-    "id": "100 Screens To The Babe",
-    "name": "100 Screens To The Babe",
     "imageUrl": "/assets/maps/placeholder.png"
   },
   {
@@ -78,6 +78,11 @@
     "id": "Baba Is You",
     "name": "Baba Is You",
     "imageUrl": "https://images.steamusercontent.com/ugc/10666196527286149277/7C4168DF648AF2E989AC006C6698CEF961873F2E/?imw=5000"
+  },
+  {
+    "id": "Babe Benedict",
+    "name": "Babe Benedict",
+    "imageUrl": "https://images.steamusercontent.com/ugc/10186901230558691267/67785ABCE4E7AAB75255F17B45064C22E8879FDE/?imw=5000"
   },
   {
     "id": "Babe Nemo",
@@ -150,6 +155,11 @@
     "imageUrl": "https://images.steamusercontent.com/ugc/59214479938944846/C6B5DE8CFB49B648FF89DE0F5581E9DA03121883/?imw=5000"
   },
   {
+    "id": "Babe of Genesis",
+    "name": "Babe of Genesis",
+    "imageUrl": "https://images.steamusercontent.com/ugc/9381642817216843260/55C31DE10948FB5ADFD11F57A43C8564E10B5102/?imw=5000"
+  },
+  {
     "id": "Babe of Illusions",
     "name": "Babe of Illusions",
     "imageUrl": "https://images.steamusercontent.com/ugc/2467485715263240592/415EC570FC7722A3061A915C8AC5F2A7B22C163B/?imw=5000"
@@ -163,6 +173,11 @@
     "id": "Babe of Memories",
     "name": "Babe of Memories",
     "imageUrl": "https://images.steamusercontent.com/ugc/2500130493198102279/6817F93F58331530B1B6804B039251462CBDE873/?imw=5000"
+  },
+  {
+    "id": "Babe of Moonlight",
+    "name": "Babe of Moonlight",
+    "imageUrl": "https://images.steamusercontent.com/ugc/16078676176659617113/6DC7BA1A93C1F124DEA29D4E43F8CCC4E899B1F8/?imw=5000"
   },
   {
     "id": "Babe of Nayuta",
@@ -250,6 +265,11 @@
     "imageUrl": "https://images.steamusercontent.com/ugc/2521522590327590182/A053CA8EB842C6135ED020AD5A51081F8E98AF0F/?imw=5000"
   },
   {
+    "id": "Babe of Transcension+",
+    "name": "Babe of Transcension+",
+    "imageUrl": "https://images.steamusercontent.com/ugc/10027626478903410934/F297236F6538CA38D3ECF9C81436935C8846E7DD/?imw=5000"
+  },
+  {
     "id": "Babe of Utopia",
     "name": "Babe of Utopia",
     "imageUrl": "https://images.steamusercontent.com/ugc/2500130493197612060/7AE7B6D006D5FB8D26CF8C9E23BCF1544E983DC8/?imw=5000"
@@ -278,6 +298,11 @@
     "id": "Babe: The Princess",
     "name": "Babe: The Princess",
     "imageUrl": "https://images.steamusercontent.com/ugc/15103285023590097757/6A4DD92552BBEC95172ED607081BEA4E8AA8B8A2/?imw=5000"
+  },
+  {
+    "id": "Babes of Absurd Timing",
+    "name": "Babes of Absurd Timing",
+    "imageUrl": "https://images.steamusercontent.com/ugc/9750707064770870990/72A527C12F2D9C1381EC8FFC3FE96204D2F371B3/?imw=5000"
   },
   {
     "id": "Back to the Babe!",
@@ -365,6 +390,11 @@
     "imageUrl": "/assets/maps/placeholder.png"
   },
   {
+    "id": "fabmoneyy's dawn",
+    "name": "fabmoneyy's dawn",
+    "imageUrl": ""
+  },
+  {
     "id": "Finding Babe",
     "name": "Finding Babe",
     "imageUrl": "https://images.steamusercontent.com/ugc/15586070994643350264/17B3B97525308ABD2F767A168C51C4296E0E4059/?imw=5000"
@@ -408,6 +438,11 @@
     "id": "Hamster Cage",
     "name": "Hamster Cage",
     "imageUrl": "https://images.steamusercontent.com/ugc/36697142549135932/6C171C8B1FFDDEFB22E9B01C61678A9D267575A8/?imw=5000"
+  },
+  {
+    "id": "I Wanna Be the Boshy",
+    "name": "I Wanna Be the Boshy",
+    "imageUrl": "https://images.steamusercontent.com/ugc/18020918791605903735/90E16E99063D5A8DD386103C860741A2C4F57ACD/?imw=5000"
   },
   {
     "id": "Ice Babe",
@@ -520,6 +555,11 @@
     "imageUrl": "/assets/maps/placeholder.png"
   },
   {
+    "id": "Natural Babe",
+    "name": "Natural Babe",
+    "imageUrl": "https://images.steamusercontent.com/ugc/10997002481495551639/70F9135037C48389F9D1305C2888236621F79C73/?imw=5000"
+  },
+  {
     "id": "Nightmare Babe",
     "name": "Nightmare Babe",
     "imageUrl": "/assets/maps/placeholder.png"
@@ -545,6 +585,11 @@
     "imageUrl": "https://images.steamusercontent.com/ugc/2467485715251469325/CA4F2244BF498E764E4F04FE63831806C1A752E7/?imw=5000"
   },
   {
+    "id": "Palace Of Tangled Ways",
+    "name": "Palace Of Tangled Ways",
+    "imageUrl": "https://images.steamusercontent.com/ugc/16802941119036063961/23DD79F3E7E26CFD23864719F8D0173732D99A54/?imw=5000"
+  },
+  {
     "id": "Project Onyx",
     "name": "Project Onyx",
     "imageUrl": "https://images.steamusercontent.com/ugc/10804385160000497/22B35E6FF14E8243799A8ADD14C402594AFB7CD3/?imw=5000"
@@ -553,6 +598,11 @@
     "id": "PZDR PIRC!!",
     "name": "PZDR PIRC!!",
     "imageUrl": "https://images.steamusercontent.com/ugc/2425844467149835239/A5107349D577011C58CB8C56EAC190EFCC0C4EA9/?imw=5000"
+  },
+  {
+    "id": "Restless Knight",
+    "name": "Restless Knight",
+    "imageUrl": "https://images.steamusercontent.com/ugc/17670437864608279975/3116DEE73EC35BC6B9B8AB9A9BEC2FBC75F95A36/?imw=5000"
   },
   {
     "id": "Reverse Babe",
@@ -620,6 +670,11 @@
     "imageUrl": "https://images.steamusercontent.com/ugc/13928513488350538606/CF57996FB7B6E36107FC7FA5BFC32DC2BB209462/?imw=5000"
   },
   {
+    "id": "Stereo Madness",
+    "name": "Stereo Madness",
+    "imageUrl": "https://images.steamusercontent.com/ugc/13694043407075206990/7C4FE3F6EFD5B092ACEFABFCFE3AAE449DBB1F67/?imw=5000"
+  },
+  {
     "id": "Sucric",
     "name": "Sucric",
     "imageUrl": "https://images.steamusercontent.com/ugc/2477618814449520316/8D22E079F26B314096A130BAAD55775051BF93F6/?imw=5000"
@@ -685,6 +740,11 @@
     "imageUrl": "https://images.steamusercontent.com/ugc/2511390031354901869/B085F01B938C65ED1CA11EFD563D0BFB9CEA2962/?imw=5000"
   },
   {
+    "id": "Total Eclipse of The Sun",
+    "name": "Total Eclipse of The Sun",
+    "imageUrl": "https://images.steamusercontent.com/ugc/11334020546280128175/8B0207EA14ADF51BF9384B7B28EE26839A52B1CB/?imw=5000"
+  },
+  {
     "id": "Triple Charge Edition",
     "name": "Triple Charge Edition",
     "imageUrl": "/assets/maps/placeholder.png"
@@ -703,6 +763,11 @@
     "id": "Ultimatum Babe",
     "name": "Ultimatum Babe",
     "imageUrl": "https://images.steamusercontent.com/ugc/13393208980752148301/525EA49D44325203436F33CDAFE25C83D00D5E63/?imw=5000"
+  },
+  {
+    "id": "Vessel of The Motal Chalange Babe",
+    "name": "Vessel of The Motal Chalange Babe",
+    "imageUrl": "https://images.steamusercontent.com/ugc/16072296280118516950/CD3822F4D0A33C684620B6B6999B8C6C8340A619/?imw=5000"
   },
   {
     "id": "Wady's World",
